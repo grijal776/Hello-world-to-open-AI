@@ -1,0 +1,18 @@
+Read me files for : AI Name Generator
+This is a simple Flask web application that generates four names for a celebrity based on their movie roles using OpenAI's GPT-3 model.
+
+Installation
+Clone this repository to your local machine.
+Create a virtual environment: python3 -m venv env
+Activate the virtual environment: source env/bin/activate
+Install the required packages: pip install -r requirements.txt
+Set your OpenAI API key in a .env file at the root of the project: echo "OPENAI_API_KEY=your_api_key_here" > .env
+Usage
+Run the Flask application: python app.py
+Open your web browser and go to http://localhost:5000
+Enter a celebrity's name and click "Generate Names"
+The application will return four names based on the celebrity's movie roles.
+License
+This project is licensed under the MIT License. See the LICENSE file for more information.
+
+
